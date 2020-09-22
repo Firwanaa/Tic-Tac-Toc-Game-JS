@@ -1,0 +1,35 @@
+.container {
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+    width: 320px;
+    height: 320px;
+  }
+  
+.cell {
+  padding: 10px;
+  background-color: rgb(24, 18, 51);
+  font-size: 20px;
+  color: aliceblue;
+  
+
+}
+
+#reset {
+    padding: 10px;
+    margin: 10px;
+}
+
+h1, h2 {
+    font-size: 15px;
+}
+
+.cell:hover {
+    background-color: rgb(203, 224, 6);
+    color: black;
+   
+}
+h3 {
+  font-size: 12px;
+  color: rgb(228, 15, 15);
+}
